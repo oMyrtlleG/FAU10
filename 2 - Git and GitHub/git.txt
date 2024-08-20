@@ -13,8 +13,11 @@ git init
 - Check the status of the files and folders
 git status
 
-- Add the files into the staging area
+- Add all the files into the staging area
 git add .
+
+- Add a specific file in the staging area
+git add "[name of the file with modification]"
 
 - Create a commit 
 git commit -m "This is the description."
@@ -24,3 +27,15 @@ git log
 
 - Shows the commit descriptions in one line
 git log --oneline
+
+- BRANCHING
+
+- List all of the branches
+git branch -a
+
+- Create a branch
+git branch [branch-name]
+
+- Switch to a different branch
+git checkout [branch-name]
+git switch [branch-name]
